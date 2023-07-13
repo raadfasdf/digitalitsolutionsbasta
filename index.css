@@ -1,0 +1,1246 @@
+div#container
+{
+   width: 1270px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Shape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape4
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border-width: 0;
+   filter: drop-shadow(1px -3px 10px rgba(0,0,0,1.00));
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image4
+{
+   vertical-align: top;
+}
+#Image4
+{
+   border-width: 0;
+   filter: drop-shadow(1px -3px 10px rgba(0,0,0,1.00));
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#TextArt2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#TextArt2:checked
+{
+   background-color: #FFFFFF;
+   transition: background-color 500ms linear 0ms;
+}
+#Layer2
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border-radius: 0px;
+   opacity: 0.50;
+}
+#wb_Marquee2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   overflow-y: hidden;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Marquee2 div
+{
+   text-align: center;
+}
+#wb_Marquee2
+{
+   overflow: hidden;
+   position: relative;
+}
+#Marquee2
+{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   animation: Marquee2-marquee 12000ms linear infinite;
+}
+@keyframes Marquee2-marquee
+{
+   0%
+   {
+   transform: translateX(100%);
+   }
+   100%
+   {
+   transform: translateX(-100%);
+   }
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#Layer7
+{
+   background-image: radial-gradient(circle at 50% 25%, #9932CC 0%, #000000 100%);
+   border-radius: 10px;
+   opacity: 0.80;
+}
+#Layer7-divider-bottom
+{
+   overflow: hidden;
+   position: absolute;
+   line-height: 0;
+   bottom: 0%;
+   left: 0;
+   width: 100%;
+   height: 80px;
+}
+#Layer7-divider-bottom svg
+{
+   display: block;
+   width: 70%;
+   height: 100%;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+}
+#Layer7-divider-bottom .divider-fill
+{
+   fill: #428CC5;
+   transform-origin: bottom;
+   transform: rotateY(0deg);
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text9 div
+{
+   text-align: center;
+}
+#wb_ResponsiveMenu1
+{
+   display: block;
+   background-color: rgba(148,0,211,0.00);
+   font-family: Arial;
+   font-weight: bold;
+   text-align: center;
+   width: 100%;
+}
+#ResponsiveMenu1
+{
+   display: inline-block;
+   background-color: rgba(148,0,211,0.00);
+   height: 65px;
+}
+#wb_ResponsiveMenu1 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu1 ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   border-radius: 0;
+   display: list-item;
+   float: left;
+   list-style: none;
+   z-index: 9999;
+}
+#wb_ResponsiveMenu1 ul li i
+{
+   font-size: 20px;
+   width: 20px;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   background-color: rgba(148,0,211,0.00);
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   padding: 15px 30px 15px 30px;
+   text-align: center;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: 35px;
+}
+.ResponsiveMenu1 a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu1 li:hover > a, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu1 ul ul
+{
+   display: none;
+   position: absolute;
+   top: 65px;
+}
+#wb_ResponsiveMenu1 ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   float: none;
+   position: relative;
+   width: 130px;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   background-color: #7A7A7A;
+   border: 0px solid #7A7A7A;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > a, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu1 ul ul li i 
+{
+   margin-right: 6px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul li a 
+{
+   padding-top: 15px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   left: 130px;
+   position: relative;
+   top: -65px;
+}
+#wb_ResponsiveMenu1 .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #FFFFFF;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu1 .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu1 li:hover > a .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{ 
+   border-top-color: #424242;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > a .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{ 
+   border-left-color: #424242;
+}
+#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
+{
+   display: none;
+}
+@media all and (max-width:768px) 
+{
+#wb_ResponsiveMenu1
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
+{
+   font-size: 13px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   padding: 15px 20px 15px 20px;
+}
+#wb_ResponsiveMenu1 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1 
+{
+   display: none;
+   z-index: 9999;
+}
+#ResponsiveMenu1 
+{
+   background-color: transparent;
+   display: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: auto !important;   margin: 0;
+}
+#wb_ResponsiveMenu1 .toggle 
+{
+   display: block;
+   background-color: rgba(148,0,211,0.00);
+   color: #FFFFFF;
+   padding: 0 20px 0 20px;
+   line-height: 50px;
+   text-decoration: none;
+   border: none;
+}
+#wb_ResponsiveMenu1 .toggle:hover
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+[id^=ResponsiveMenu1-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1-title
+{
+   height: 65px !important;
+   line-height: 65px !important;
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul li 
+{
+   display: block;
+   width: 100% !important;
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul ul .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   padding: 0 40px;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   background-color: #7A7A7A;
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   padding: 15px 20px 15px 60px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul li i 
+{
+   margin-right: 6px;
+}
+#wb_ResponsiveMenu1 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > ul,
+#wb_ResponsiveMenu1 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1-icon 
+{
+   display: block;
+   position: absolute;
+   left: 30px;
+   top: 20px;
+}
+#ResponsiveMenu1-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   width: 24px;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #CCCCCC;
+   color: #424242;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #424242;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #424242;
+}
+}
+#wb_Carousel1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border-radius: 0px;
+}
+#Carousel1 .frame
+{
+   width: 1260px;
+   display: inline-block;
+   float: left;
+   height: 582px;
+}
+#wb_Carousel1 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel1 .pagination a
+{
+   display: inline-block;
+   margin: 12px 12px 12px 12px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+   border: 1px solid #000000;
+}
+#wb_Carousel1 .pagination a.active
+{
+   background-color: #000000;
+}
+#wb_Carousel1 .carousel-control-next, #wb_Carousel1 .carousel-control-prev
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   text-align: center;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#wb_Carousel1 .carousel-control-next-icon, #wb_Carousel1 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#wb_Carousel1 .carousel-control-next:hover, #wb_Carousel1 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#wb_Carousel1 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M100%2026%20L62%2064%20L100%20102%20C101%20103%2c%20101%20104%2c%20101%20106%20C101%20107%2c%20101%20108%2c%20100%20109%20L88%20121%20C87%20122%2c%2086%20122%2c%2085%20122%20C84%20122%2c%2083%20122%2c%2082%20121%20L29%2068%20C28%2067%2c%2027%2066%2c%2027%2064%20C27%2063%2c%2028%2062%2c%2029%2061%20L82%208%20C83%207%2c%2084%207%2c%2085%207%20C86%207%2c%2087%207%2c%2088%208%20L100%2020%20C101%2021%2c%20101%2022%2c%20101%2023%20C101%2024%2c%20101%2026%2c%20100%2026%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_Carousel1 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M99%2068%20L46%20121%20C45%20122%2c%2044%20122%2c%2043%20122%20C42%20122%2c%2041%20122%2c%2040%20121%20L28%20109%20C27%20108%2c%2027%20107%2c%2027%20106%20C27%20104%2c%2027%20103%2c%2028%20102%20L66%2064%20L28%2026%20C27%2026%2c%2027%2024%2c%2027%2023%20C27%2022%2c%2027%2021%2c%2028%2020%20L40%208%20C41%207%2c%2042%207%2c%2043%207%20C44%207%2c%2045%207%2c%2046%208%20L99%2061%20C100%2062%2c%20101%2063%2c%20101%2064%20C101%2066%2c%20100%2067%2c%2099%2068%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Carousel1_back
+{
+   position: absolute;
+   left: 4px;
+   top: 47%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel1_next
+{
+   position: absolute;
+   right: 4px;
+   top: 47%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel1_back a, #Carousel1_next a
+{
+   cursor: pointer;
+}
+#Carousel1 .frame-1
+{
+   background-color: transparent;
+   background-image: url('images/slider-3.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel1 .frame-2
+{
+   background-color: transparent;
+   background-image: url('images/slider-1.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+}
+#Carousel1 .frame-3
+{
+   background-color: transparent;
+   background-image: url('images/computer-hardware-repairing-upgrade-technology.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel1 .frame-4
+{
+   background-color: transparent;
+   background-image: url('images/slider-4.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel1 .frame-5
+{
+   background-color: transparent;
+   background-image: url('images/slider-5.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#wb_Carousel2
+{
+   background-color: #00BFFF;
+   background-image: none;
+   border: 5px solid #FFFFFF;
+   border-radius: 30px;
+}
+#Carousel2 .frame
+{
+   width: 601px;
+   display: inline-block;
+   float: left;
+   height: 370px;
+}
+#wb_Carousel2 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel2 .pagination a
+{
+   display: inline-block;
+   margin: 12px 12px 12px 12px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+   border: 1px solid #000000;
+}
+#wb_Carousel2 .pagination a.active
+{
+   background-color: #000000;
+}
+#wb_Carousel2 .carousel-control-next, #wb_Carousel2 .carousel-control-prev
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   text-align: center;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#wb_Carousel2 .carousel-control-next-icon, #wb_Carousel2 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#wb_Carousel2 .carousel-control-next:hover, #wb_Carousel2 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#wb_Carousel2 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M100%2026%20L62%2064%20L100%20102%20C101%20103%2c%20101%20104%2c%20101%20106%20C101%20107%2c%20101%20108%2c%20100%20109%20L88%20121%20C87%20122%2c%2086%20122%2c%2085%20122%20C84%20122%2c%2083%20122%2c%2082%20121%20L29%2068%20C28%2067%2c%2027%2066%2c%2027%2064%20C27%2063%2c%2028%2062%2c%2029%2061%20L82%208%20C83%207%2c%2084%207%2c%2085%207%20C86%207%2c%2087%207%2c%2088%208%20L100%2020%20C101%2021%2c%20101%2022%2c%20101%2023%20C101%2024%2c%20101%2026%2c%20100%2026%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_Carousel2 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M99%2068%20L46%20121%20C45%20122%2c%2044%20122%2c%2043%20122%20C42%20122%2c%2041%20122%2c%2040%20121%20L28%20109%20C27%20108%2c%2027%20107%2c%2027%20106%20C27%20104%2c%2027%20103%2c%2028%20102%20L66%2064%20L28%2026%20C27%2026%2c%2027%2024%2c%2027%2023%20C27%2022%2c%2027%2021%2c%2028%2020%20L40%208%20C41%207%2c%2042%207%2c%2043%207%20C44%207%2c%2045%207%2c%2046%208%20L99%2061%20C100%2062%2c%20101%2063%2c%20101%2064%20C101%2066%2c%20100%2067%2c%2099%2068%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Carousel2_back
+{
+   position: absolute;
+   left: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel2_next
+{
+   position: absolute;
+   right: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel2_back a, #Carousel2_next a
+{
+   cursor: pointer;
+}
+#Carousel2 .frame-1
+{
+   background-color: transparent;
+   background-image: url('images/slider-3.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel2 .frame-2
+{
+   background-color: transparent;
+   background-image: url('images/slider-1.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+}
+#Carousel2 .frame-3
+{
+   background-color: transparent;
+   background-image: url('images/computer-hardware-repairing-upgrade-technology.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel2 .frame-4
+{
+   background-color: transparent;
+   background-image: url('images/slider-4.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel2 .frame-5
+{
+   background-color: transparent;
+   background-image: url('images/slider-5.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#wb_Carousel3
+{
+   background-color: #00BFFF;
+   background-image: none;
+   border: 5px solid #FFFFFF;
+   border-radius: 30px;
+}
+#Carousel3 .frame
+{
+   width: 601px;
+   display: inline-block;
+   float: left;
+   height: 370px;
+}
+#wb_Carousel3 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel3 .pagination a
+{
+   display: inline-block;
+   margin: 12px 12px 12px 12px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+   border: 1px solid #000000;
+}
+#wb_Carousel3 .pagination a.active
+{
+   background-color: #000000;
+}
+#wb_Carousel3 .carousel-control-next, #wb_Carousel3 .carousel-control-prev
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   text-align: center;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#wb_Carousel3 .carousel-control-next-icon, #wb_Carousel3 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#wb_Carousel3 .carousel-control-next:hover, #wb_Carousel3 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#wb_Carousel3 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M100%2026%20L62%2064%20L100%20102%20C101%20103%2c%20101%20104%2c%20101%20106%20C101%20107%2c%20101%20108%2c%20100%20109%20L88%20121%20C87%20122%2c%2086%20122%2c%2085%20122%20C84%20122%2c%2083%20122%2c%2082%20121%20L29%2068%20C28%2067%2c%2027%2066%2c%2027%2064%20C27%2063%2c%2028%2062%2c%2029%2061%20L82%208%20C83%207%2c%2084%207%2c%2085%207%20C86%207%2c%2087%207%2c%2088%208%20L100%2020%20C101%2021%2c%20101%2022%2c%20101%2023%20C101%2024%2c%20101%2026%2c%20100%2026%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_Carousel3 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M99%2068%20L46%20121%20C45%20122%2c%2044%20122%2c%2043%20122%20C42%20122%2c%2041%20122%2c%2040%20121%20L28%20109%20C27%20108%2c%2027%20107%2c%2027%20106%20C27%20104%2c%2027%20103%2c%2028%20102%20L66%2064%20L28%2026%20C27%2026%2c%2027%2024%2c%2027%2023%20C27%2022%2c%2027%2021%2c%2028%2020%20L40%208%20C41%207%2c%2042%207%2c%2043%207%20C44%207%2c%2045%207%2c%2046%208%20L99%2061%20C100%2062%2c%20101%2063%2c%20101%2064%20C101%2066%2c%20100%2067%2c%2099%2068%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Carousel3_back
+{
+   position: absolute;
+   left: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel3_next
+{
+   position: absolute;
+   right: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel3_back a, #Carousel3_next a
+{
+   cursor: pointer;
+}
+#Carousel3 .frame-1
+{
+   background-color: transparent;
+   background-image: url('images/slider-3.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel3 .frame-2
+{
+   background-color: transparent;
+   background-image: url('images/slider-1.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+}
+#Carousel3 .frame-3
+{
+   background-color: transparent;
+   background-image: url('images/computer-hardware-repairing-upgrade-technology.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel3 .frame-4
+{
+   background-color: transparent;
+   background-image: url('images/slider-4.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel3 .frame-5
+{
+   background-color: transparent;
+   background-image: url('images/slider-5.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Carousel4
+{
+   background-color: #00BFFF;
+   background-image: none;
+   border: 5px solid #FFFFFF;
+   border-radius: 30px;
+}
+#Carousel4 .frame
+{
+   width: 601px;
+   display: inline-block;
+   float: left;
+   height: 370px;
+}
+#wb_Carousel4 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel4 .pagination a
+{
+   display: inline-block;
+   margin: 12px 12px 12px 12px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+   border: 1px solid #000000;
+}
+#wb_Carousel4 .pagination a.active
+{
+   background-color: #000000;
+}
+#wb_Carousel4 .carousel-control-next, #wb_Carousel4 .carousel-control-prev
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   text-align: center;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#wb_Carousel4 .carousel-control-next-icon, #wb_Carousel4 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#wb_Carousel4 .carousel-control-next:hover, #wb_Carousel4 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#wb_Carousel4 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M100%2026%20L62%2064%20L100%20102%20C101%20103%2c%20101%20104%2c%20101%20106%20C101%20107%2c%20101%20108%2c%20100%20109%20L88%20121%20C87%20122%2c%2086%20122%2c%2085%20122%20C84%20122%2c%2083%20122%2c%2082%20121%20L29%2068%20C28%2067%2c%2027%2066%2c%2027%2064%20C27%2063%2c%2028%2062%2c%2029%2061%20L82%208%20C83%207%2c%2084%207%2c%2085%207%20C86%207%2c%2087%207%2c%2088%208%20L100%2020%20C101%2021%2c%20101%2022%2c%20101%2023%20C101%2024%2c%20101%2026%2c%20100%2026%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_Carousel4 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M99%2068%20L46%20121%20C45%20122%2c%2044%20122%2c%2043%20122%20C42%20122%2c%2041%20122%2c%2040%20121%20L28%20109%20C27%20108%2c%2027%20107%2c%2027%20106%20C27%20104%2c%2027%20103%2c%2028%20102%20L66%2064%20L28%2026%20C27%2026%2c%2027%2024%2c%2027%2023%20C27%2022%2c%2027%2021%2c%2028%2020%20L40%208%20C41%207%2c%2042%207%2c%2043%207%20C44%207%2c%2045%207%2c%2046%208%20L99%2061%20C100%2062%2c%20101%2063%2c%20101%2064%20C101%2066%2c%20100%2067%2c%2099%2068%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Carousel4_back
+{
+   position: absolute;
+   left: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel4_next
+{
+   position: absolute;
+   right: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel4_back a, #Carousel4_next a
+{
+   cursor: pointer;
+}
+#Carousel4 .frame-1
+{
+   background-color: transparent;
+   background-image: url('images/slider-3.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel4 .frame-2
+{
+   background-color: transparent;
+   background-image: url('images/slider-1.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+}
+#Carousel4 .frame-3
+{
+   background-color: transparent;
+   background-image: url('images/computer-hardware-repairing-upgrade-technology.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel4 .frame-4
+{
+   background-color: transparent;
+   background-image: url('images/slider-4.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel4 .frame-5
+{
+   background-color: transparent;
+   background-image: url('images/slider-5.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#wb_Carousel5
+{
+   background-color: #00BFFF;
+   background-image: none;
+   border: 5px solid #FFFFFF;
+   border-radius: 30px;
+}
+#Carousel5 .frame
+{
+   width: 601px;
+   display: inline-block;
+   float: left;
+   height: 370px;
+}
+#wb_Carousel5 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel5 .pagination a
+{
+   display: inline-block;
+   margin: 12px 12px 12px 12px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+   border: 1px solid #000000;
+}
+#wb_Carousel5 .pagination a.active
+{
+   background-color: #000000;
+}
+#wb_Carousel5 .carousel-control-next, #wb_Carousel5 .carousel-control-prev
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   text-align: center;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#wb_Carousel5 .carousel-control-next-icon, #wb_Carousel5 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#wb_Carousel5 .carousel-control-next:hover, #wb_Carousel5 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#wb_Carousel5 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M100%2026%20L62%2064%20L100%20102%20C101%20103%2c%20101%20104%2c%20101%20106%20C101%20107%2c%20101%20108%2c%20100%20109%20L88%20121%20C87%20122%2c%2086%20122%2c%2085%20122%20C84%20122%2c%2083%20122%2c%2082%20121%20L29%2068%20C28%2067%2c%2027%2066%2c%2027%2064%20C27%2063%2c%2028%2062%2c%2029%2061%20L82%208%20C83%207%2c%2084%207%2c%2085%207%20C86%207%2c%2087%207%2c%2088%208%20L100%2020%20C101%2021%2c%20101%2022%2c%20101%2023%20C101%2024%2c%20101%2026%2c%20100%2026%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_Carousel5 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M99%2068%20L46%20121%20C45%20122%2c%2044%20122%2c%2043%20122%20C42%20122%2c%2041%20122%2c%2040%20121%20L28%20109%20C27%20108%2c%2027%20107%2c%2027%20106%20C27%20104%2c%2027%20103%2c%2028%20102%20L66%2064%20L28%2026%20C27%2026%2c%2027%2024%2c%2027%2023%20C27%2022%2c%2027%2021%2c%2028%2020%20L40%208%20C41%207%2c%2042%207%2c%2043%207%20C44%207%2c%2045%207%2c%2046%208%20L99%2061%20C100%2062%2c%20101%2063%2c%20101%2064%20C101%2066%2c%20100%2067%2c%2099%2068%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Carousel5_back
+{
+   position: absolute;
+   left: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel5_next
+{
+   position: absolute;
+   right: 4px;
+   top: 44%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel5_back a, #Carousel5_next a
+{
+   cursor: pointer;
+}
+#Carousel5 .frame-1
+{
+   background-color: transparent;
+   background-image: url('images/slider-3.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel5 .frame-2
+{
+   background-color: transparent;
+   background-image: url('images/slider-1.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+}
+#Carousel5 .frame-3
+{
+   background-color: transparent;
+   background-image: url('images/computer-hardware-repairing-upgrade-technology.jpg');
+   background-repeat: repeat-x;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel5 .frame-4
+{
+   background-color: transparent;
+   background-image: url('images/slider-4.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#Carousel5 .frame-5
+{
+   background-color: transparent;
+   background-image: url('images/slider-5.jpg');
+   background-repeat: repeat;
+   background-position: center center;
+   background-size: cover;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text4 div
+{
+   text-align: center;
+}
+#wb_CssMenu3
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   background-color: transparent;
+   margin: 0;
+   text-align: center;
+}
+#wb_CssMenu3 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   display: inline-block;
+}
+#wb_CssMenu3 li
+{
+   float: left;
+   margin: 0;
+   padding: 0px 4px 0px 0px;
+   width: 80px;
+}
+#wb_CssMenu3 a
+{
+   display: block;
+   float: left;
+   color: #333333;
+   border: 1px solid #CCCCCC;
+   border-radius: 0px;
+   background-color: #808080;
+   background-image: none;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   width: 68px;
+   height: 26px;
+   padding: 0 5px 0px 5px;
+   vertical-align: middle;
+   line-height: 26px;
+   text-align: center;
+}
+#wb_CssMenu3 li:hover a, #wb_CssMenu3 a:hover
+{
+   color: #FFFFFF;
+   border: 1px solid #FFFFFF;
+   background-color: #808080;
+   background-image: none;
+}
+#wb_CssMenu3 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu3 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu3 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
